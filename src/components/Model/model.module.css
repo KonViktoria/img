@@ -1,0 +1,34 @@
+.owerlain{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 20;
+    background-color:#101510a1 ;
+
+}
+.inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height:600px;
+    background-color: #fff;
+    overflow:hidden ;
+}
+.clouseBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 250ms linear;
+    
+}
+.clouseBtn:hover{
+    color: red
+}

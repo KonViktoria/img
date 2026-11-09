@@ -1,0 +1,11 @@
+.img{
+    width: 300px;
+
+}
+.li{
+    border: 1px solid white
+}
+.li:hover{
+    scale: 1.02;
+    transition: 200ms linear;
+}

@@ -1,0 +1,45 @@
+.form{
+     position: relative;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 8px;
+      
+}
+
+.inputForm{
+   
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    outline: none;
+    width: 300px;
+    padding: 4px 8px;
+    font-size: large;
+    padding-left: 30px;
+}
+.btnSearch{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer; 
+    transition: 300ms linear;
+}
+.btnSearch:hover{
+    scale: 1.5;
+}
+.btnX{
+    position: absolute;
+    left:0;
+    top: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    transition: 300ms linear;
+
+}
+.btnX:hover{
+    color: brown;
+}

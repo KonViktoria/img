@@ -1,5 +1,6 @@
 import { Model } from "../Model/Model"
 import {useState} from "react"
+import styles from './imgListItem.module.css'
 export const ImgListItem=({largeImageURL,webformatURL,tags,likes,views,comments,downloads})=>{
 
 const [isShoweModel, setShoweModel] = useState(false)
@@ -10,9 +11,9 @@ const toglModel=()=>{
     
 }
 
-    return <li >
+    return <li className={styles.li} >
       {/* <a href={largeImageURL}> */}
-<img src={webformatURL} alt={tags} onClick={toglModel} />
+<img className={styles.img} src={webformatURL} alt={tags} onClick={toglModel} />
       {/* </a> */}
       <div>
         <p><b>Likes</b><span> {likes
